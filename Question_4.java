@@ -1,6 +1,5 @@
 package Project1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 //Project  : Project6
@@ -54,6 +53,8 @@ public class Question_4 {
 	
 	public static void main(String[] args){
 		int[] array = getArraySort(true);
-		System.out.println(Arrays.toString(array));
+		for(int i=0;i<array.length;i++) {
+			System.out.print(array[i] + "  ");
+		}
 	}
 }
